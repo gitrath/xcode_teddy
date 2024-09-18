@@ -13,5 +13,6 @@ struct xcode_teddyApp: App {
         WindowGroup {
             ContentView()
         }
+        .defaultSize(CGSize(width: 300, height: 300))
     }
 }
